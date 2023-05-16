@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lesson18-poetry"
+version = "0.1.0"
+description = ""
+authors = ["DisasterCooper <bajdukmax@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lesson18_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+sqlalchemy = "^2.0.12"
+pyyaml = "^6.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
